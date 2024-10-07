@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name               = "PradoSDK"
     spec.version            = "10.0.0"
-    spec.summary            = "PRADO SDK provides effective quality monetization."
-    spec.description        = "PRADO SDK provides effective quality monetization."
+    spec.summary            = "Prado SDK for iOS."
+    spec.description        = "Prado SDK - in-app monetization solution."
     spec.platform = :ios, '11.0'
     spec.homepage           = "https://prado.co/"
     spec.documentation_url  = "https://github.com/Prado-SDK/prado-ios-frameworks/blob/main/README.md"

@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name               = "PradoApplovinAdapter"
     spec.version            = "{POD_VERSION}"
-    spec.summary            = "Prado SDK for Ads (Applovin Mediation Adapter)."
-    spec.description        = "DESCRIPTION"
+    spec.summary            = "Prado Applovin Mediation Adapter."
+    spec.description        = "Prado Adapter lets you connect Prado demand to your App via Applovin mediation platform."
     spec.platform = :ios, '11.0'
     spec.homepage           = "https://prado.co/"
     spec.documentation_url  = "https://github.com/Prado-SDK/prado-ios-frameworks/blob/main/README.md"
