@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "https://github.com/Prado-SDK/prado-ios-frameworks/blob/beta/README.md"
     spec.license            = "https://github.com/Prado-SDK/prado-mobile-sdk/blob/beta/LICENSE.md"
     spec.author             = { "PRADO LTD" => "maria@prado.co" }
-    spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/beta/mediation/ironSource/1.4.0/KidozIronSourceAdapter-1.4.0.zip' }
+    spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/beta/mediation/ironSource/1.4.0/PradoIronSourceAdapter-1.4.0.zip' }
     spec.swift_version      = "5.3"
     spec.dependency 'IronSourceSDK', '>= 7.6.0.0'
     spec.dependency 'PradoSDK', '>= 10.0.0'
