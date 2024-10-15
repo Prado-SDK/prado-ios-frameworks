@@ -19,5 +19,5 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks = "PradoSDK/PradoSDK.xcframework"
 
     # Privacy Report
-    spec.resource_bundles = {'PrivacyInfo' => ['PradoSDK/PrivacyInfo.xcprivacy']}
+    spec.resource_bundles = {'PradoSDKPrivacyInfo' => ['PradoSDK/PrivacyInfo.xcprivacy']}
   end
