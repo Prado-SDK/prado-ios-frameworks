@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "https://github.com/Prado-SDK/prado-ios-frameworks/blob/main/README.md"
     spec.license            = "https://github.com/Prado-SDK/prado-mobile-sdk/blob/main/LICENSE.md"
     spec.author             = { "PRADO LTD" => "yarden@prado.co" }
-    spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/main/PradoSDK/{POD_VERSION}/PradoSDK-{POD_VERSION}.zip' }
+    spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/main/PradoSDK/{POD_VERSION}/PradoSDK.zip' }
     spec.swift_version      = "5.3"
     spec.user_target_xcconfig    = { "OTHER_LDFLAGS" => "-lc++ -ObjC" }
   
@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
     spec.ios.deployment_target  = "12.0"
   
     # Published binaries
-    spec.vendored_frameworks = "PradoSDK/PradoSDK.xcframework"
+    spec.vendored_frameworks = "PradoSDK.xcframework"
 
     # Privacy Report
-    spec.resource_bundles = {'PrivacyInfo' => ['PradoSDK/PrivacyInfo.xcprivacy']}
+    spec.resource_bundles = {'PrivacyInfo' => ['PrivacyInfo.xcprivacy']}
   end
