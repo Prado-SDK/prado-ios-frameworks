@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.homepage           = "https://prado.co/"
     spec.documentation_url  = "https://github.com/Prado-SDK/prado-ios-frameworks/blob/main/README.md"
     spec.license            = "https://github.com/Prado-SDK/prado-mobile-sdk/blob/main/LICENSE.md"
-    spec.author             = { "PRADO LTD" => "yarden@prado.co" }
+    spec.author             = { "PRADO LTD" => "sdk@prado.co" }
     spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/main/PradoSDK/{POD_VERSION}/PradoSDK.zip' }
     spec.swift_version      = "5.3"
     spec.user_target_xcconfig    = { "OTHER_LDFLAGS" => "-lc++ -ObjC" }

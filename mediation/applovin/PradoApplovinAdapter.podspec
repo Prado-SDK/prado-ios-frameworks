@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.homepage           = "https://prado.co/"
     spec.documentation_url  = "https://github.com/Prado-SDK/prado-ios-frameworks/blob/main/README.md"
     spec.license            = "https://github.com/Prado-SDK/prado-mobile-sdk/blob/main/LICENSE.md"
-    spec.author             = { "PRADO LTD" => "maria@prado.co" }
+    spec.author             = { "PRADO LTD" => "sdk@prado.co" }
     spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/main/mediation/applovin/{POD_VERSION}/PradoApplovinAdapter.zip' }
     spec.swift_version      = "5.3"
 	spec.dependency 'AppLovinSDK', '>= 11.4.4'
