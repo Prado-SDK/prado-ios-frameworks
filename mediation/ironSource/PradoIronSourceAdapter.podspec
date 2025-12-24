@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.author             = { "PRADO LTD" => "sdk@prado.co" }
     spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/main/mediation/ironSource/{POD_VERSION}/PradoIronSourceAdapter.zip' }
     spec.swift_version      = "5.3"
-    spec.dependency 'IronSourceSDK', '>= 7.6.0.0'
+    spec.dependency 'IronSourceSDK', '>= 9.0.0.0'
     spec.dependency 'PradoSDK', '~> {MINIMUM_CORE_VERSION}'
     spec.ios.deployment_target  = "12.0"
   
