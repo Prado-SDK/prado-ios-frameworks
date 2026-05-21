@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/main/mediation/applovin/{POD_VERSION}/PradoApplovinAdapter.zip' }
     spec.swift_version      = "5.3"
 	spec.dependency 'AppLovinSDK', '>= 11.4.4'
-    spec.dependency 'PradoSDK', '~> {SDK_POD_VERSION}'
+    spec.dependency 'PradoSDK', '~> {MINIMUM_CORE_VERSION}'
     # Supported deployment targets
     spec.ios.deployment_target  = "14.0"
   
