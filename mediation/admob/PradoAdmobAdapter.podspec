@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
     spec.author             = { "PRADO LTD" => "sdk@prado.co" }
     spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/main/mediation/admob/{POD_VERSION}/PradoAdmobAdapter.zip' }
     spec.swift_version      = "5.3"
-	spec.dependency 'Google-Mobile-Ads-SDK', '>= 10.8.0'
+	spec.dependency 'Google-Mobile-Ads-SDK', '>= 13.7.0'
     spec.dependency 'PradoSDK', '~> {MINIMUM_CORE_VERSION}'
     # Supported deployment targets
     spec.ios.deployment_target  = "14.0"
