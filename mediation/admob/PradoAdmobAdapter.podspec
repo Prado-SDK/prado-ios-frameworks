@@ -17,4 +17,8 @@ Pod::Spec.new do |spec|
     # Published binaries
     spec.vendored_frameworks = "PradoAdmobAdapter.xcframework"
 
+    # Privacy manifest. CocoaPods links static vendored frameworks without embedding them,
+    # so the PrivacyInfo.xcprivacy inside the framework never reaches the app. Ship it as a resource bundle.
+    spec.resource_bundles = { "PradoAdmobAdapterPrivacy" => ["PradoAdmobAdapter.xcframework/ios-arm64/PradoAdmobAdapter.framework/PrivacyInfo.xcprivacy"] }
+
   end
