@@ -1,0 +1,23 @@
+Pod::Spec.new do |spec|
+    spec.name               = "PradoSDK"
+    spec.version            = "11.0.0"
+    spec.summary            = "Prado SDK for iOS."
+    spec.description        = "Prado SDK - in-app monetization solution."
+    spec.homepage           = "https://prado.co/"
+    spec.documentation_url  = "https://github.com/Prado-SDK/prado-ios-frameworks/blob/main/README.md"
+    spec.license            = "https://github.com/Prado-SDK/prado-mobile-sdk/blob/main/LICENSE.md"
+    spec.author             = { "PRADO LTD" => "sdk@prado.co" }
+    spec.source             = { :http => 'https://github.com/Prado-SDK/prado-ios-frameworks/raw/main/PradoSDK/11.0.0/PradoSDK.zip' }
+    spec.swift_version      = "5.3"
+    spec.user_target_xcconfig    = { "OTHER_LDFLAGS" => "-lc++ -ObjC" }
+  
+    # Supported deployment targets
+    spec.ios.deployment_target  = "14.0"
+  
+    # Published binaries
+    spec.vendored_frameworks = "PradoSDK.xcframework"
+
+    # Privacy manifest. CocoaPods links static vendored frameworks without embedding them,
+    # so the PrivacyInfo.xcprivacy inside the framework never reaches the app. Ship it as a resource bundle.
+    spec.resource_bundles = { "PradoSDKPrivacy" => ["PradoSDK.xcframework/ios-arm64/PradoSDK.framework/PrivacyInfo.xcprivacy"] }
+  end
